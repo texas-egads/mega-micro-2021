@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: BeeQuick
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: cb6b58ecf57c8464bbbf3e8451a68cd3, type: 3}
+  sounds:
+  - soundName: Jam
+    clip: {fileID: 8300000, guid: c71ecc3efe3db4a4ebae45989cedf0a2, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Splat
+    clip: {fileID: 8300000, guid: bc49ddd4752ade842baf50295b287076, type: 3}
+    volume: 1
+    minPitch: 0.892
+    maxPitch: 1.05
+    source: {fileID: 0}
+  - soundName: PlateSlide
+    clip: {fileID: 8300000, guid: 40e0c06ed14dd1f409c24368be011e7e, type: 3}
+    volume: 1
+    minPitch: 0.85
+    maxPitch: 1.12
+    source: {fileID: 0}
+  - soundName: BreadSplat
+    clip: {fileID: 8300000, guid: 88b05cac056b60f478a65eaa488ee59e, type: 3}
+    volume: 1
+    minPitch: 0.97
+    maxPitch: 1.09
+    source: {fileID: 0}
+  - soundName: WinGame
+    clip: {fileID: 8300000, guid: 456a9f3b1cc235d43a9d38cad6109606, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: LoseGame
+    clip: {fileID: 8300000, guid: 5d9e2c28b3900bd4eb59beb969f1e282, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Buzz
+    clip: {fileID: 8300000, guid: eb557689d0dabd74388b63f65de4f0aa, type: 3}
+    volume: 0.654
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Dash
+    clip: {fileID: 8300000, guid: c71ecc3efe3db4a4ebae45989cedf0a2, type: 3}
+    volume: 0.993
+    minPitch: 0.988
+    maxPitch: 1.1
+    source: {fileID: 0}
+  gameWin: 0

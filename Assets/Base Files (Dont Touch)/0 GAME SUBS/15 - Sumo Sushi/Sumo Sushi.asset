@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Sumo Sushi
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 11893dd51d9c7824f8d869ba15181eb3, type: 3}
+  sounds:
+  - soundName: tsuzumi
+    clip: {fileID: 8300000, guid: f2e86636c6bd4c4469f8e22537a794bb, type: 3}
+    volume: 0.5
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: slurp
+    clip: {fileID: 8300000, guid: 3b1917ce714e0534a840c1641613c7f1, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: lowChomp
+    clip: {fileID: 8300000, guid: 5d2fb60739260f54197b2ee5baf8e984, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: highChomp
+    clip: {fileID: 8300000, guid: d051cfc23bfc7bd4dab32bdb65752c9d, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Mmm
+    clip: {fileID: 8300000, guid: 26c495377c7eb2840a6bab890a59b6b2, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: boom
+    clip: {fileID: 8300000, guid: 729b303ed9df1794bb6c53dbfe0c93a1, type: 3}
+    volume: 0.573
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: swing1
+    clip: {fileID: 8300000, guid: 2f86d8cc70083534c833a63409ca8a97, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: swing2
+    clip: {fileID: 8300000, guid: 5a11e58218411ea4792182b16f33bf51, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 1

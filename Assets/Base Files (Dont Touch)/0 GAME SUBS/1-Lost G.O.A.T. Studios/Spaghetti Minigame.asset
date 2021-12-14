@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Spaghetti Minigame
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 976ab4805f94cb24ba4b51f10a0f162c, type: 3}
+  sounds:
+  - soundName: MeatSquish
+    clip: {fileID: 8300000, guid: e7a6bc82fcaedc54c84351e105bcad0f, type: 3}
+    volume: 1
+    minPitch: 0
+    maxPitch: 3
+    source: {fileID: 0}
+  - soundName: Munch
+    clip: {fileID: 8300000, guid: b2ba5866fb5a8a0409b9872fcc17b5e3, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 1

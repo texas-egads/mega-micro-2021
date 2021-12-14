@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c3d232689692b488f092111e6eb0d4, type: 3}
+  m_Name: Solo Games
+  m_EditorClassIdentifier: 
+  type: 2
+  text: 'Solo Games
+
+    Seagull Smash - chemicahl
+
+    Pancake Time - PalePiney
+
+    BeeGaDSChan
+    Cooking - Jake Nguyen
+
+    Eatman - Luke Li
+
+    Order Up! - Karina Teruya
+
+    Conveyor
+    Crisis - Ali Kedwaii
+
+    BeeFood - Mindy Chi'
+  screenshot:
+  - {fileID: 21300000, guid: 8f46d0127f523944e9cd2766c03d898e, type: 3}
+  - {fileID: 21300000, guid: 157f4d5a7d07d61419a54667e2d56770, type: 3}
+  - {fileID: 21300000, guid: a8890ff303a4f0844910a7df339c4bb5, type: 3}
+  - {fileID: 21300000, guid: a0bbda679911a254c8005fad9c76c4f7, type: 3}
+  - {fileID: 21300000, guid: 4cbe980b9951852459f521d12c816bd5, type: 3}
+  - {fileID: 21300000, guid: b36bd024d93a51445b5f4a5884d13a3f, type: 3}
+  - {fileID: 21300000, guid: 1307c8529221e974792d49c00afd0716, type: 3}

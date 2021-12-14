@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b728088db583fc44ca8ecab237312bc4, type: 3}
+  m_Name: Menu Sprites
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 3ce3b1bfa1be7754a9077cbe9d297fc5, type: 3}
+  - {fileID: 21300000, guid: c1526320ba14edb41b8a0c9b1991d066, type: 3}
+  - {fileID: 21300000, guid: c1726c204c798ed42afc9407b5c9f49f, type: 3}
+  - {fileID: 21300000, guid: 1bc3b146e8c93f7469190d265a434246, type: 3}
+  - {fileID: 21300000, guid: b88928584b6085d4f918010f7d0cf579, type: 3}
+  - {fileID: 21300000, guid: e10e382922569124ca5c21de540bbd6a, type: 3}
+  - {fileID: 21300000, guid: bb3c9518bc573af47aa3bb9b46177a63, type: 3}
+  - {fileID: 21300000, guid: 3d46274753f77af4ab800e0403a48576, type: 3}
+  - {fileID: 21300000, guid: 101a49a919c5b364798ac5871c2e863e, type: 3}

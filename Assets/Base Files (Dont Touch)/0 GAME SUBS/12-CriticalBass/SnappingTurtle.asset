@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: SnappingTurtle
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 9ea30448a1433a547b5cf5fdf0c77203, type: 3}
+  sounds:
+  - soundName: SnapSound
+    clip: {fileID: 8300000, guid: 8f34ed205fd8d374ab906dc82adef2b7, type: 3}
+    volume: 1
+    minPitch: 0.628
+    maxPitch: 1.606
+    source: {fileID: 0}
+  - soundName: VictorySound
+    clip: {fileID: 8300000, guid: 4b2bafcdf24cfeb4fac6df527437217b, type: 3}
+    volume: 0.898
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 1

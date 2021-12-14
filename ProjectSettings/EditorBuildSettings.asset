@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 Scenes/TitleScreen.unity
+    guid: 771da822a5d0e74419e56a15f7d6a649
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 Scenes/Main.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 Scenes/End.unity
+    guid: 9afc0269d88532c4e882e8aef915747d
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 Scenes/Intro.unity
+    guid: 82b82b45a6ccc9e47ac82c4c456b9e68
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/Boss Game Files (Dont Change)/Boss Game/Boss!!.unity
+    guid: e8183a5cfe695594999097e9aa9bf923
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 Scenes/Credits.unity
+    guid: 9847ffd9f95d2504c9ffca4319ac2544
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/9-Beez Nutz/Order Good Food.unity
+    guid: d9ff06deefccc284d841371feb3b8c3c
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-chemicahl/Defend Your Food.unity
+    guid: a5ffd4bb0d778a241a09bdeec0f74b83
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-Palepiney/Add Honey.unity
+    guid: a0b7dacfba940b14f8bcec1eaf0cd1bf
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/10-Hivemind/Grab In Order.unity
+    guid: 3e9915266fc69bd45a229fedcfc52f90
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-imB-B-Bee/Feed the Bees!.unity
+    guid: 219c064577acd8d4998a2d05eeceb4c4
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/14-Three/PieHunter.unity
+    guid: bb22ef39be7b48640b0ac692734ffcb4
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/1-Lost G.O.A.T. Studios/Spaghetti
+      Time.unity
+    guid: 81de91d0a0bb8cb47b4b57c3962a2e3f
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/8 - The Bucket Hat Three/Save
+      Gerald.unity
+    guid: 9fc84a46a7f07614685d2f2041d8da96
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/13-1-Dog With Reindeer Antlers/Hold
+      the Lid.unity
+    guid: 970886833cd1dfa4585a6287d192eb14
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/11-EGADS SHADOW PRESIDENTS/Plate
+      Balancing.unity
+    guid: eb3be897034bf08459ecc5143bb3af11
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/16-ChopChop/Chop food.unity
+    guid: e9a5e955e58af14428128739d6b98388
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-LukeBee/Eat Food.unity
+    guid: 07d6592b34888664eb056dabe4a47ae7
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/2-ThePoggersGamers/Eat Honey.unity
+    guid: d86c606380d17ad4da3075c68c0b531f
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/5-AveDisturbia/Jump.unity
+    guid: 7ea584eb14bd9d94c998cc317d17ccdd
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-Mindy/Make Delicious Sushi.unity
+    guid: 85673fe3d7de03044a05cf63ca1402e5
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-Xiro/Grab your order.unity
+    guid: af1d040ef3125914195a73fd09072124
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/12-CriticalBass/Catch your dinner.unity
+    guid: 9dc7327c7d3200b42ae86fe123d3ce32
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/15 - Sumo Sushi/Eat Three Plates.unity
+    guid: 8d43919e5d1a42e49b12471d39681982
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/6-BeekeeperKeepers/Stack it.unity
+    guid: ed4d2adbcd5c4e9479f3f7727edee5ed
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/7-Apples or Bees/To the flower.unity
+    guid: 4274032a5de9f2a4ca1715f1f35d1785
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/13-2-Dog with Reindeer Antlers/Run.unity
+    guid: 7542d9b9f9d846143bf18ad420604563
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3-TBeeD/Spread The Jam.unity
+    guid: 54bb1707eebe0f449921127bfd29c1c8
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/solo-karina/Serve Food.unity
+    guid: b61efe1f7834b7d44845a4f0bf10a92b
+  m_configObjects: {}

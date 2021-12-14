@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: ChopFood
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: f95d1911c04a0374786eb5491e1655fb, type: 3}
+  sounds:
+  - soundName: win_1
+    clip: {fileID: 8300000, guid: 126ae65ba09e19a42bd8dba4be44c2b3, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: win_2
+    clip: {fileID: 8300000, guid: 104c64e084efd2b44a3f14d63b342120, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: win_3
+    clip: {fileID: 8300000, guid: f3f3dfc894c2edd41863f8f55581daba, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: win_4
+    clip: {fileID: 8300000, guid: 4f92f2b0360fe194dbc91aeff52ff350, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: lose
+    clip: {fileID: 8300000, guid: e2400c9398a46884091b4ebf9a93f09c, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: chop_1
+    clip: {fileID: 8300000, guid: a866f1139d37cb7479e92f9af7069caa, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: chop_2
+    clip: {fileID: 8300000, guid: 29d73ac06d1c25449b77611b053740fd, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: chop_3
+    clip: {fileID: 8300000, guid: aad40f24735b58d49b5431fc9a25a3b3, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: chop_4
+    clip: {fileID: 8300000, guid: 8318f39e2c45ed742ad552c281cbc150, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: swarm
+    clip: {fileID: 8300000, guid: 586bf94d471b17443a310653c93c3bdb, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 1

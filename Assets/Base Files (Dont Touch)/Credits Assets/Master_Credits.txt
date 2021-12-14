@@ -1,0 +1,104 @@
+Base Project Design, Programming & Music - Grant Ross
+Base Project Art - Karina Teryua & Terry Nguyen
+Music and SFX Resources - Grant Ross, Matthew Zhang, David Lee
+
+Munchees
+Sophie Toon -  Programming
+Lizzy Gonzalez - Art
+Erik DuQuesnay - Audio
+
+May the Ramen Bee With You
+Noah Kuhn - Programming & Audio
+Jasmine Hanlin - Art
+
+Pie Hunter
+Ian McDonald - Programming
+Noah Chisenhall - Art
+Aidan Johnson - Audio
+
+Spaghetti Time
+Zoe Orgish - Programming & Art
+Garret Wied - Programming & Animation
+Sarash Huseth - Art
+Cash Condon - Designer
+Alvert Escobedo - Sound
+
+Bee Hungry
+Hannah Chuang - Programming
+Jennifer Chen - Art/Animation
+Samantha Barton - Audio
+
+High Steaks
+Ethan Bennikutty - Programming & Design
+Mindy Van - Art
+Amy Li - Art
+
+Plate Balancing
+Connor - Art & Design
+Joseph - Art & Programming
+
+Chop Chop
+Joel Setiawan Chong -  Design, Audio & Programming
+Valeria Trevino - Art
+Adam Leslie - Programming
+
+Hunny Bee
+Mason Eastman - Programming
+Kate Jefferys - Background Art & Sprites
+Seth Eastman - Design & Concept Art
+
+Fast Food
+Rodrigo O.C. Peeira - Programming, Music, & Sound
+Andrick Dominquez - Art & Design
+
+Sandwich Stack
+Jared Kahl - Programming
+Alex Hanlin - Programming
+Jesus Salinas - Art
+
+tbeed
+Amber Smith - Art & Programming
+Dane Byrd - Game Design & Technical Art
+Tony Nguyen - Game Design & Programming
+Delong "Miki" Lin - Game Design & Sound Design
+Samuel Choi - Music & Vocals
+
+Sumo Sushi
+Jux - Audio
+JustWin - Programming
+Remus the Demus - Art
+Kayotic - Programming
+
+Snapping Turtle
+Mihir Kolte - Art and Animation
+Jacob Chlebowski - Programming
+
+Hold the Lid
+Alyssa Diaz - Art
+Jasper Murphy - Music
+Lexie Rodriguez - Art
+Weston Wright - Art, Programming
+
+Hot Dog Run
+Alyssa Diaz - Art
+Jasper Murphy - Music
+Lexie Rodriguez - Art
+Weston Wright - Art, Programming
+
+Solo Games
+Seagull Smash - chemicahl
+Pancake Time - PalePiney
+BeeGaDS-Chan Cooking - Jake Nguyen
+Eatman - Luke Li
+Order Up! - Karina Teryua
+Conveyor Crisis - Ali Kedwaii
+BeeFood - Mindy Chi
+Order Up - Karina Teryua
+
+Gordon Ramsbee's Kitchen Nightmare
+Alex Huang (Twitter, @gungamedevr)- Programming
+Ale Acevedo (Bandcamp, @güey)- Audio
+Terry Nguyen (Twitter, @deth2loremonger)- Art, Programming
+Jimmy Liu (ArtStation, @jimjimthebard)-  Art
+
+

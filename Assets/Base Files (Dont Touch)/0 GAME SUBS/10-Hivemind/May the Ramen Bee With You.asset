@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: May the Ramen Bee With You
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 27735845d9148ae4998c0737c331ab7e, type: 3}
+  sounds:
+  - soundName: Applause
+    clip: {fileID: 8300000, guid: 58227bd59681ed44c9b4df6fd7be532b, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Ding
+    clip: {fileID: 8300000, guid: d65683a07709e3a4bbb2dfedd2bb4553, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Pop
+    clip: {fileID: 8300000, guid: 87a40342b6a68774e8f1f73d09cbe4f6, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    source: {fileID: 0}
+  gameWin: 1

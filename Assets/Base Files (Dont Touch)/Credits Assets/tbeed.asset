@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c3d232689692b488f092111e6eb0d4, type: 3}
+  m_Name: tbeed
+  m_EditorClassIdentifier: 
+  type: 0
+  text: 'Bee Quick
+
+    Amber Smith - Art & Programming
+
+    Dane Byrd - Game Design
+    & Technical Art
+
+    Tony Nguyen - Game Design & Programming
+
+    Delong "Miki"
+    Lin - Game Design & Sound Design
+
+    Samuel Choi - Music & Vocals'
+  screenshot:
+  - {fileID: 21300000, guid: 62e74acdb8115bd42bcb763d6feefd0e, type: 3}
