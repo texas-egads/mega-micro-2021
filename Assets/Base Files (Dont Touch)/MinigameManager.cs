@@ -14,12 +14,14 @@ public class MinigameManager : MonoBehaviour
     // Use this to reference your minigame Scriptable Object and the PlaySound method from other scripts
     public static MinigameManager Instance => _instance ? _instance : FindObjectOfType<MinigameManager>();
     //*****************************************//
-    
+
     //******* DEBUG GAME ONLY *******//
     // set to true if you want to test your scene alone in play mode;
+    [Tooltip("Set this to true if you want to test your scene without the surrounding main game.")]
     public bool debugGameOnly; 
     //****************************//
 
+    [Tooltip("The Minigame object for your minigame! Slot it in here whenever you have deleted the example.")]
     public Minigame minigame;
     
     public void PlaySound(string soundName)
