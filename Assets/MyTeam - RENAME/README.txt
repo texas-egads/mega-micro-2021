@@ -173,7 +173,7 @@ Navigating the Project:
             - You can change whether the value starts at true or false in the inspector window.
 
                     <*****************************************>
- > You may notice that there is a Yellow border attached to the Camera
+ > You may notice that there is a green border attached to the Camera
     - This border is meant to contain your game, but dont be afraid to break out of it! 
     - The final border will be animated and be on Canvas sort order 1, so if you want to have some UI pop outside the border, set the canvas to level 2 or higher (but not above 99).
     
