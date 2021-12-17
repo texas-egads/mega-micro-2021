@@ -91,9 +91,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -163,9 +163,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1920
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3840
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,9 +226,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5760
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: post-minigame-lose-bee_4
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 3600
+        x: 0
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: post-minigame-lose-bee_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2400
+        x: 1920
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: post-minigame-lose-bee_6
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2400
+        x: 3840
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: post-minigame-lose-bee_7
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 2400
+        x: 5760
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: post-minigame-lose-bee_8
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 2400
+        x: 0
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: post-minigame-lose-bee_9
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 2400
+        x: 1920
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: post-minigame-lose-bee_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1200
+        x: 3840
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: post-minigame-lose-bee_11
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1200
+        x: 5760
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,174 +406,6 @@ TextureImporter:
       bones: []
       spriteID: 88dc7043af8cdc1f0800000000000000
       internalID: -1022940563402928760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_12
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 817d053e8ed0d5ca0800000000000000
-      internalID: -6026645432454555880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_13
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f565f310358a7950800000000000000
-      internalID: 6447612258074060272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_14
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: defcec817edff2400800000000000000
-      internalID: 301738869052592109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89227168c96840f40800000000000000
-      internalID: 5693823835725832856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_16
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0231f64a727aa97c0800000000000000
-      internalID: -4063751925044145376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_17
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e7319b6923999f10800000000000000
-      internalID: 2277012892720117731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_18
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8f9b81c44f693420800000000000000
-      internalID: 2610239800133525391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-lose-bee_19
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6f7a71d9fcf01eb0800000000000000
-      internalID: -4751019456984350869
       vertices: []
       indices: 
       edges: []

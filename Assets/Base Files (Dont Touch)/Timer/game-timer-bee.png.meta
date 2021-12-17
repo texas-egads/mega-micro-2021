@@ -50,6 +50,30 @@ TextureImporter:
   - first:
       213: 6751968049127348780
     second: game-timer-bee_15
+  - first:
+      213: -282481640140571304
+    second: game-timer-bee_16
+  - first:
+      213: 1155286566104048296
+    second: game-timer-bee_17
+  - first:
+      213: -2532671437364428213
+    second: game-timer-bee_18
+  - first:
+      213: -390608770583876075
+    second: game-timer-bee_19
+  - first:
+      213: -1779572144070115228
+    second: game-timer-bee_20
+  - first:
+      213: -3827939129186150387
+    second: game-timer-bee_21
+  - first:
+      213: -4342911544273819757
+    second: game-timer-bee_22
+  - first:
+      213: 7117136606866926982
+    second: game-timer-bee_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,8 +104,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -187,10 +211,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 615
-        width: 1814
-        height: 205
-      alignment: 0
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -207,11 +231,11 @@ TextureImporter:
       name: game-timer-bee_1
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 615
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 1920
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -228,11 +252,11 @@ TextureImporter:
       name: game-timer-bee_2
       rect:
         serializedVersion: 2
-        x: 3628
-        y: 615
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 3840
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -249,11 +273,11 @@ TextureImporter:
       name: game-timer-bee_3
       rect:
         serializedVersion: 2
-        x: 5442
-        y: 615
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 5760
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -270,11 +294,11 @@ TextureImporter:
       name: game-timer-bee_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 410
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 7680
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -291,11 +315,11 @@ TextureImporter:
       name: game-timer-bee_5
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 410
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 9600
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -312,11 +336,11 @@ TextureImporter:
       name: game-timer-bee_6
       rect:
         serializedVersion: 2
-        x: 3628
-        y: 410
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -333,11 +357,11 @@ TextureImporter:
       name: game-timer-bee_7
       rect:
         serializedVersion: 2
-        x: 5442
-        y: 410
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -354,11 +378,11 @@ TextureImporter:
       name: game-timer-bee_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 205
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -375,11 +399,11 @@ TextureImporter:
       name: game-timer-bee_9
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 205
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -396,11 +420,11 @@ TextureImporter:
       name: game-timer-bee_10
       rect:
         serializedVersion: 2
-        x: 3628
-        y: 205
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 7680
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -417,11 +441,11 @@ TextureImporter:
       name: game-timer-bee_11
       rect:
         serializedVersion: 2
-        x: 5442
-        y: 205
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 9600
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -439,10 +463,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1814
-        height: 205
-      alignment: 0
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -459,11 +483,11 @@ TextureImporter:
       name: game-timer-bee_13
       rect:
         serializedVersion: 2
-        x: 1814
-        y: 0
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -480,11 +504,11 @@ TextureImporter:
       name: game-timer-bee_14
       rect:
         serializedVersion: 2
-        x: 3628
-        y: 0
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 3840
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -501,11 +525,11 @@ TextureImporter:
       name: game-timer-bee_15
       rect:
         serializedVersion: 2
-        x: 5442
-        y: 0
-        width: 1814
-        height: 205
-      alignment: 0
+        x: 5760
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -514,6 +538,174 @@ TextureImporter:
       bones: []
       spriteID: c2ad50fca2fc3bd50800000000000000
       internalID: 6751968049127348780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_16
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85df9d7e17c641cf0800000000000000
+      internalID: -282481640140571304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_17
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a96ac207680010800000000000000
+      internalID: 1155286566104048296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b428d131fb42adcd0800000000000000
+      internalID: -2532671437364428213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e22378467449af0800000000000000
+      internalID: -390608770583876075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_20
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46045844090bd47e0800000000000000
+      internalID: -1779572144070115228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_21
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d089a0fa4ad60eac0800000000000000
+      internalID: -3827939129186150387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_22
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397ad90d5f0eab3c0800000000000000
+      internalID: -4342911544273819757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_23
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d6b36290625c260800000000000000
+      internalID: 7117136606866926982
       vertices: []
       indices: 
       edges: []

@@ -23,6 +23,33 @@ TextureImporter:
   - first:
       213: -9164781786269918774
     second: lives-counter-v2_6
+  - first:
+      213: 8198502570152156717
+    second: lives-counter-v2_7
+  - first:
+      213: -6575223431198828325
+    second: lives-counter-v2_8
+  - first:
+      213: -8618738305418693104
+    second: lives-counter-v2_9
+  - first:
+      213: 8673233263258485830
+    second: lives-counter-v2_10
+  - first:
+      213: -4594299512494441681
+    second: lives-counter-v2_11
+  - first:
+      213: 8330417571966796621
+    second: lives-counter-v2_12
+  - first:
+      213: -8426572504103260964
+    second: lives-counter-v2_13
+  - first:
+      213: 7355234401447168236
+    second: lives-counter-v2_14
+  - first:
+      213: 8999376518848262160
+    second: lives-counter-v2_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,9 +79,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -82,7 +109,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -94,7 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -124,9 +151,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 583
-        height: 1000
+        y: 3240
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +171,10 @@ TextureImporter:
       name: lives-counter-v2_1
       rect:
         serializedVersion: 2
-        x: 583
-        y: 0
-        width: 583
-        height: 1000
+        x: 1920
+        y: 3240
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +192,10 @@ TextureImporter:
       name: lives-counter-v2_2
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 0
-        width: 583
-        height: 1000
+        x: 3840
+        y: 3240
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +213,10 @@ TextureImporter:
       name: lives-counter-v2_3
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 0
-        width: 583
-        height: 1000
+        x: 5760
+        y: 3240
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +234,10 @@ TextureImporter:
       name: lives-counter-v2_4
       rect:
         serializedVersion: 2
-        x: 2332
-        y: 0
-        width: 583
-        height: 1000
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +255,10 @@ TextureImporter:
       name: lives-counter-v2_5
       rect:
         serializedVersion: 2
-        x: 2915
-        y: 0
-        width: 583
-        height: 1000
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +276,10 @@ TextureImporter:
       name: lives-counter-v2_6
       rect:
         serializedVersion: 2
-        x: 3498
-        y: 0
-        width: 583
-        height: 1000
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,6 +289,195 @@ TextureImporter:
       bones: []
       spriteID: ac95961c58720d080800000000000000
       internalID: -9164781786269918774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_7
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edb0866aee6c170800000000000000
+      internalID: 8198502570152156717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89198502d10c4a0800000000000000
+      internalID: -6575223431198828325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016777ddc27146880800000000000000
+      internalID: -8618738305418693104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644cf9e33b38d5870800000000000000
+      internalID: 8673233263258485830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_11
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bb40e5fe4cd30c0800000000000000
+      internalID: -4594299512494441681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43c0cf25a69b9370800000000000000
+      internalID: 8330417571966796621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdce9d214fcce0b80800000000000000
+      internalID: -8426572504103260964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_14
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8cdf9e7ba031660800000000000000
+      internalID: 7355234401447168236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lives-counter-v2_15
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01031fd534534ec70800000000000000
+      internalID: 8999376518848262160
       vertices: []
       indices: 
       edges: []
