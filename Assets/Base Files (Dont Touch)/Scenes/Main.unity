@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 254973306}
   - component: {fileID: 254973305}
   m_Layer: 5
-  m_Name: Food
+  m_Name: Zoom In On This
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,6 +630,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133128132299059506, guid: 299268e851095ea429ce927bf2bef866,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6002128659311069120, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_IsActive
@@ -638,22 +643,32 @@ PrefabInstance:
     - target: {fileID: 6753492707297013645, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.2270826
+      value: 0.22745097
       objectReference: {fileID: 0}
     - target: {fileID: 6753492707297013645, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.6496938
+      value: 0.7647059
       objectReference: {fileID: 0}
     - target: {fileID: 6753492707297013645, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.764151
+      value: 0.3419572
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753492707297013645, guid: 299268e851095ea429ce927bf2bef866,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7258696147295923499, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965530896984429872, guid: 299268e851095ea429ce927bf2bef866,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Transition Mask
       objectReference: {fileID: 0}
     - target: {fileID: 7965530896984429872, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}

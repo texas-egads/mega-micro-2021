@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1107 &-4757046028732606388
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 8711059629891527157}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 130, y: 170, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -28,7 +28,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bee
+  m_Name: Icon
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -46,12 +46,12 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &8711059629891527157
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TitleBee_ANIM
+  m_Name: TitleIcon_ANIM
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

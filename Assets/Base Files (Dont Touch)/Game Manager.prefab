@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 6427174515834431141}
   - component: {fileID: 7063011510789369797}
   m_Layer: 5
-  m_Name: Food Silhouette
+  m_Name: Scene Transition Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
