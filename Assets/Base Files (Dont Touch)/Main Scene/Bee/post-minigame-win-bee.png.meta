@@ -82,9 +82,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -154,9 +154,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,9 +175,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1920
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,9 +196,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3840
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,9 +217,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5760
-        y: 3600
+        y: 2160
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: post-minigame-win-bee_4
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 3600
+        x: 0
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: post-minigame-win-bee_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2400
+        x: 1920
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: post-minigame-win-bee_6
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2400
+        x: 3840
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: post-minigame-win-bee_7
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 2400
+        x: 5760
+        y: 1080
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: post-minigame-win-bee_8
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 2400
+        x: 0
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: post-minigame-win-bee_9
       rect:
         serializedVersion: 2
-        x: 7680
-        y: 2400
+        x: 1920
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +363,10 @@ TextureImporter:
       name: post-minigame-win-bee_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1200
+        x: 3840
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +384,10 @@ TextureImporter:
       name: post-minigame-win-bee_11
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1200
+        x: 5760
+        y: 0
         width: 1920
-        height: 1200
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,111 +397,6 @@ TextureImporter:
       bones: []
       spriteID: a08f1fd6f70f513a0800000000000000
       internalID: -6695180840920287222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-win-bee_12
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 108be5da6c3035260800000000000000
-      internalID: 7085010790630995969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-win-bee_13
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0967ed7725bbdbc0800000000000000
-      internalID: -3757210282889877236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-win-bee_14
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 1200
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27b78f6497b16e640800000000000000
-      internalID: 5108801034994088818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-win-bee_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 921061bb5c39e6ca0800000000000000
-      internalID: -6021713174291152599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-minigame-win-bee_16
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 1920
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a811c74164a58f7b0800000000000000
-      internalID: -5190299313506610806
       vertices: []
       indices: 
       edges: []
