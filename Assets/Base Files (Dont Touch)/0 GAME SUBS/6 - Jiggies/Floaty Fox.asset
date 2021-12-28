@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Floaty Fox
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 1bcc852316d5d2f4cbaa59c7067e3b78, type: 3}
+  volume: 1
+  sounds:
+  - soundName: Hit
+    clip: {fileID: 8300000, guid: 9066d8cb0de9a7d49b4b4c9437289e3c, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Jump
+    clip: {fileID: 8300000, guid: 75c3930ebc3924448b6d9f7a8197a3d9, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 0
