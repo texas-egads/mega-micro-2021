@@ -6,6 +6,7 @@ using UnityEngine;
 public class UILives : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+    [SerializeField] private List<GameObject> smokeList;
 
     private void Awake()
     {
@@ -18,6 +19,11 @@ public class UILives : MonoBehaviour
         else
         {
             animator.Play("flowers-" + (MainGameManager.Instance.remainingLives == 3 ? 3 : MainGameManager.Instance.remainingLives + 1));
+            int maxSmokeToPlay = MainGameManager.Instance.remainingLives == 3 ? 1 : 3 - MainGameManager.Instance.remainingLives;
+            for(int i = 0; i < maxSmokeToPlay; ++i)
+            {
+                smokeList[i].SetActive(true);
+            }
             StartCoroutine(LoseLifeHelper());
         }
     }

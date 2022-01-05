@@ -164,7 +164,10 @@ public class MainGameManager : MonoBehaviour
         LevelPreview.instance.HandleLevelPreview(false);
         yield return new WaitForSeconds(halfBeat);
         
-        if (!minigame.gameWin) remainingLives -= 1;
+        if (!minigame.gameWin) {
+            remainingLives -= 1;
+            // play smoke anim
+        }
         roundNumber++;
         scene.allowSceneActivation = true;
         yield return null;
@@ -195,7 +198,6 @@ public class MainGameManager : MonoBehaviour
         yield return new WaitForSeconds(ShortTime/2 - .15f);
         if (firstBossTry)
         {
-            
             FindObjectOfType<BossAlertHandler>().BossAlert();
             yield return new WaitForSeconds(ShortTime);
             FindObjectOfType<AudioManager>().PlayReady();
