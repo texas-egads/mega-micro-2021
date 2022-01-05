@@ -20,6 +20,11 @@ namespace Terry
             difficultyWindow.SetActive(true);
         }
 
+        public void BackButton()
+        {
+            difficultyWindow.SetActive(false);
+        }
+
         // Update is called once per frame
         public void ExitGame()
         {

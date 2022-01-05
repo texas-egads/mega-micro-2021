@@ -11,6 +11,12 @@ public class BeeHandler : MonoBehaviour
     {
         MainGameManager.OnMainStart += BeeAnimation;
         MainGameManager.Instance.GameOver += BeeDie;
+        MainGameManager.Instance.FirstMainStart += PreFirstGameAnim;
+    }
+
+    private void PreFirstGameAnim()
+    {
+        animator.Play("pre-first-game");
     }
 
     private void BeeAnimation(bool win)

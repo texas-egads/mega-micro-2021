@@ -173,7 +173,7 @@ public class MainGameManager : MonoBehaviour
         {
             //yield return null;
             gameOver = true;
-            Invoke(nameof(OnGameOver), ShortTime/2);
+            Invoke(nameof(OnGameOver), 0 /*ShortTime/2*/);
         }
         else if (roundNumber <= roundsToWin)
         {
@@ -237,7 +237,7 @@ public class MainGameManager : MonoBehaviour
         if (remainingLives == 0)
         {
             gameOver = true;
-            Invoke(nameof(OnGameOver), ShortTime/2);
+            Invoke(nameof(OnGameOver), 0 /*ShortTime/2*/);
         }
         else if (bossGame.gameWin)
         {

@@ -74,6 +74,9 @@ TextureImporter:
   - first:
       213: 7117136606866926982
     second: game-timer-bee_23
+  - first:
+      213: 7847136616848152329
+    second: game-timer-bee_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -211,10 +214,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3240
+        y: 4320
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -232,10 +235,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1920
-        y: 3240
+        y: 4320
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -253,10 +256,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3840
-        y: 3240
+        y: 4320
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -274,10 +277,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5760
-        y: 3240
+        y: 4320
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -295,10 +298,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7680
-        y: 3240
+        y: 4320
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -315,11 +318,11 @@ TextureImporter:
       name: game-timer-bee_5
       rect:
         serializedVersion: 2
-        x: 9600
+        x: 0
         y: 3240
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -336,11 +339,11 @@ TextureImporter:
       name: game-timer-bee_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
+        x: 1920
+        y: 3240
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -357,11 +360,11 @@ TextureImporter:
       name: game-timer-bee_7
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2160
+        x: 3840
+        y: 3240
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -378,11 +381,11 @@ TextureImporter:
       name: game-timer-bee_8
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 2160
+        x: 5760
+        y: 3240
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -399,11 +402,11 @@ TextureImporter:
       name: game-timer-bee_9
       rect:
         serializedVersion: 2
-        x: 5760
-        y: 2160
+        x: 7680
+        y: 3240
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -420,11 +423,11 @@ TextureImporter:
       name: game-timer-bee_10
       rect:
         serializedVersion: 2
-        x: 7680
+        x: 0
         y: 2160
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -441,11 +444,11 @@ TextureImporter:
       name: game-timer-bee_11
       rect:
         serializedVersion: 2
-        x: 9600
+        x: 1920
         y: 2160
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -462,11 +465,11 @@ TextureImporter:
       name: game-timer-bee_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1080
+        x: 3840
+        y: 2160
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -483,11 +486,11 @@ TextureImporter:
       name: game-timer-bee_13
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1080
+        x: 5760
+        y: 2160
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -504,11 +507,11 @@ TextureImporter:
       name: game-timer-bee_14
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 1080
+        x: 7680
+        y: 2160
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -525,11 +528,11 @@ TextureImporter:
       name: game-timer-bee_15
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 0
         y: 1080
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -546,11 +549,11 @@ TextureImporter:
       name: game-timer-bee_16
       rect:
         serializedVersion: 2
-        x: 7680
+        x: 1920
         y: 1080
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -567,11 +570,11 @@ TextureImporter:
       name: game-timer-bee_17
       rect:
         serializedVersion: 2
-        x: 9600
+        x: 3840
         y: 1080
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -588,11 +591,11 @@ TextureImporter:
       name: game-timer-bee_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 5760
+        y: 1080
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -609,11 +612,11 @@ TextureImporter:
       name: game-timer-bee_19
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
+        x: 7680
+        y: 1080
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -630,11 +633,11 @@ TextureImporter:
       name: game-timer-bee_20
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 0
         y: 0
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -651,11 +654,11 @@ TextureImporter:
       name: game-timer-bee_21
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 1920
         y: 0
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -672,11 +675,11 @@ TextureImporter:
       name: game-timer-bee_22
       rect:
         serializedVersion: 2
-        x: 7680
+        x: 3840
         y: 0
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -693,11 +696,11 @@ TextureImporter:
       name: game-timer-bee_23
       rect:
         serializedVersion: 2
-        x: 9600
+        x: 5760
         y: 0
         width: 1920
         height: 1080
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -706,6 +709,27 @@ TextureImporter:
       bones: []
       spriteID: 68d6b36290625c260800000000000000
       internalID: 7117136606866926982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-timer-bee_24
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907d1375d21a6ec60800000000000000
+      internalID: 7847136616848152329
       vertices: []
       indices: 
       edges: []
