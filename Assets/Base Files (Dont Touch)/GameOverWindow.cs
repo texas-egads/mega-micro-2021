@@ -18,7 +18,7 @@ public class GameOverWindow : MonoBehaviour
     private void GameLose()
     {
         window.SetActive(true);
-        loseAnim.Play("lose-anim");
+        //loseAnim.Play("lose-anim");   //as far as I can tell, the lose animator is unnecessary this time
         //restaurant.Play("back-fade");
     }
     public void RestartButton()

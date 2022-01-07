@@ -39,7 +39,7 @@ namespace Terry
         public void DifficultyButton(int rounds)
         {
             MainGameManager.Instance.SetRounds(rounds);
-            GameManager.Instance.LoadScene("Intro");
+            MainGameManager.Instance.RestartGame();
         }
     }
 }
