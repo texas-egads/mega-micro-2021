@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FitMinigame
   m_EditorClassIdentifier: 
   gameTime: 0
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: b0bf8911aab44ab4c9b0956385c734fe, type: 3}
   volume: 1
   sounds:
   - soundName: win
