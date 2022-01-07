@@ -15,26 +15,20 @@ MonoBehaviour:
   type: 2
   text: 'Solo Games
 
-    Seagull Smash - chemicahl
+    First Date - Alex Hanlin (Arts And Lovecrafts)
 
-    Pancake Time - PalePiney
+    The
+    Lost Frog Planet - Kelly Shen (Frogkid)
 
-    BeeGaDSChan
-    Cooking - Jake Nguyen
+    Banana Catcher - Jimmy Liu (LONE
+    PINK FROG)
 
-    Eatman - Luke Li
+    Floaty Fox - Jiggles (Jiggies)
 
-    Order Up! - Karina Teruya
-
-    Conveyor
-    Crisis - Ali Kedwaii
-
-    BeeFood - Mindy Chi'
+    Fit in! - Palepiney (Panic)'
   screenshot:
-  - {fileID: 21300000, guid: 8f46d0127f523944e9cd2766c03d898e, type: 3}
-  - {fileID: 21300000, guid: 157f4d5a7d07d61419a54667e2d56770, type: 3}
-  - {fileID: 21300000, guid: a8890ff303a4f0844910a7df339c4bb5, type: 3}
-  - {fileID: 21300000, guid: a0bbda679911a254c8005fad9c76c4f7, type: 3}
-  - {fileID: 21300000, guid: 4cbe980b9951852459f521d12c816bd5, type: 3}
-  - {fileID: 21300000, guid: b36bd024d93a51445b5f4a5884d13a3f, type: 3}
-  - {fileID: 21300000, guid: 1307c8529221e974792d49c00afd0716, type: 3}
+  - {fileID: 21300000, guid: 3cf83fad06c324149b77b9d666a17a52, type: 3}
+  - {fileID: 21300000, guid: bb5c6ed4da017904497d20e1af16e4c3, type: 3}
+  - {fileID: 21300000, guid: 2f343917907c0524189d08be39bd7eb5, type: 3}
+  - {fileID: 21300000, guid: ffb514ea37b2b234391d52f560bbb1f2, type: 3}
+  - {fileID: 21300000, guid: 4ce0b4781461214488d427ecb094012e, type: 3}

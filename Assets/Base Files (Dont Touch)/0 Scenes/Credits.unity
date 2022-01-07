@@ -153,24 +153,12 @@ MonoBehaviour:
   startDelay: 4
   creditPanels:
   - {fileID: 11400000, guid: c36c4c1a4376686418686a234d2615f2, type: 2}
-  - {fileID: 11400000, guid: c0473b347dee7f84e9ec0717cf15c8f4, type: 2}
-  - {fileID: 11400000, guid: 6c78a41c9d91e0b469d5f31484e87b2e, type: 2}
-  - {fileID: 11400000, guid: 3d9868d49e8095d44a93a0b002924bec, type: 2}
-  - {fileID: 11400000, guid: 0d7feea3ac8c19c45b14c58fb38a1016, type: 2}
-  - {fileID: 11400000, guid: 734f6c6005c6cce4b9f4266e31aa9dbe, type: 2}
-  - {fileID: 11400000, guid: 755d99dba6fe7804cb448103ea2c8a9c, type: 2}
-  - {fileID: 11400000, guid: d071dfb89644ac94c8b0ab8202eea59b, type: 2}
-  - {fileID: 11400000, guid: 4c14a78c9dfa0ec4a8a61d49c626b5be, type: 2}
-  - {fileID: 11400000, guid: a0f3d8023ff4b2748a67476a023b57c9, type: 2}
-  - {fileID: 11400000, guid: fbf2ce2f8526b8747aea0a9ebbb7970b, type: 2}
-  - {fileID: 11400000, guid: d6f1487a8d48c054f8cbab8939d4a15e, type: 2}
-  - {fileID: 11400000, guid: 09ee32554613668419d266da48a4fa11, type: 2}
-  - {fileID: 11400000, guid: 3e9e25d9a29ff7847b051ae41eb97b88, type: 2}
-  - {fileID: 11400000, guid: b1ced313b27cd4c46b0811ae3cbf02aa, type: 2}
-  - {fileID: 11400000, guid: 5bb93dcc59b4f614f9d43721e4824dbb, type: 2}
-  - {fileID: 11400000, guid: 66244f265994103489eb527675b4e3bd, type: 2}
+  - {fileID: 11400000, guid: 3ef2f61a16165474fa75310356a54a7b, type: 2}
+  - {fileID: 11400000, guid: f034e04b34aa12f47a356f51392274e1, type: 2}
+  - {fileID: 11400000, guid: 63e473f2c52166b42892f42ff7ce9b6f, type: 2}
+  - {fileID: 11400000, guid: c9e8954f253cb484997b92c6d1808dca, type: 2}
+  - {fileID: 11400000, guid: 3b4e72d2af8e6a14eb4af0828c91917b, type: 2}
   - {fileID: 11400000, guid: 3afcc35dc0ce6434da92006ca50a8cfe, type: 2}
-  - {fileID: 11400000, guid: 78224cee159f47d4ab94ffaec0bb5c65, type: 2}
   panelToParent: {fileID: 741683440}
   moveRb: {fileID: 741683443}
   moveSpeed: 70
@@ -223,7 +211,7 @@ RectTransform:
   m_GameObject: {fileID: 741683439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
   m_Children: []
   m_Father: {fileID: 849833824}
   m_RootOrder: 2
