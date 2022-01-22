@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Obligatory COVID-19 Reference
+  m_EditorClassIdentifier: 
+  gameTime: 0
+  music: {fileID: 8300000, guid: 158f4560d95792a41ab9205766eb170f, type: 3}
+  volume: 1
+  sounds:
+  - soundName: pop
+    clip: {fileID: 8300000, guid: 616a4ea597bc9fb4c85f60536df27a9c, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    source: {fileID: 0}
+  - soundName: win
+    clip: {fileID: 8300000, guid: d772cc4134604944eaedeb95f96c4ae6, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: applause
+    clip: {fileID: 8300000, guid: dc5c5f6d9fbacee46bbe1b6a60389b2f, type: 3}
+    volume: 0.7
+    minPitch: 0.7
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 0

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Suit Up
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 8300000, guid: 70388d21438aba2428a52e970ad1f1c4, type: 3}
+  volume: 0.45
+  sounds:
+  - soundName: switch
+    clip: {fileID: 8300000, guid: 4fe11ab36093cda449c47ee12db82be9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.12
+    source: {fileID: 0}
+  - soundName: select
+    clip: {fileID: 8300000, guid: 4421e5e7874e07a469cbbf976f8188db, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: suck
+    clip: {fileID: 8300000, guid: 906c40ce05a20484a993857bb4f02c00, type: 3}
+    volume: 1
+    minPitch: 0.68
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: pop
+    clip: {fileID: 8300000, guid: 730ffdc2679cfae46ab31a948c48ea63, type: 3}
+    volume: 0.317
+    minPitch: 0
+    maxPitch: 0
+    source: {fileID: 0}
+  - soundName: wrong
+    clip: {fileID: 8300000, guid: 25b1ff97c63b01941b200a8837060c07, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: explosion
+    clip: {fileID: 8300000, guid: 07959b5d156c92e44988efc3c9727153, type: 3}
+    volume: 0.49
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: win
+    clip: {fileID: 8300000, guid: 47898e2f6cd5a104f9ee18f62b3d8d3d, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 1

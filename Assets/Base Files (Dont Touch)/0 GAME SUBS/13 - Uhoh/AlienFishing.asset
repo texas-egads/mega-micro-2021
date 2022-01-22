@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: AlienFishing
+  m_EditorClassIdentifier: 
+  gameTime: 0
+  music: {fileID: 8300000, guid: 9bdf9e9d404fcf190879a2166951f584, type: 3}
+  volume: 0.9
+  sounds:
+  - soundName: FishCaught
+    clip: {fileID: 8300000, guid: 41b320b8ca706ebad80e694936e55dd4, type: 3}
+    volume: 0.8
+    minPitch: 0.8
+    maxPitch: 1.2
+    source: {fileID: 0}
+  - soundName: CatchingFish
+    clip: {fileID: 8300000, guid: 0068a84441e823941bdc25ab37c6fdb7, type: 3}
+    volume: 0.8
+    minPitch: 0.8
+    maxPitch: 1.2
+    source: {fileID: 0}
+  gameWin: 0

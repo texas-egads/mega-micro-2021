@@ -23,21 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 Scenes/Credits.unity
     guid: 9847ffd9f95d2504c9ffca4319ac2544
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3-LONEPINKREBEL/Get the banana.unity
     guid: edb5ef0529eeaee408562800c9fc6260
@@ -56,4 +41,35 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Frogkid/Find Planet Frog.unity
     guid: bf5fa4122f76341608c1df45dbd54159
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Croakey-Dokey/Social Distance.unity
+    guid: d9ff06deefccc284d841371feb3b8c3c
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3 - LONEPINKFROG3/Eject the
+      Imposter.unity
+    guid: 2f316ab1c0603b342bfeb46916f78218
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3 - LONEPINKFROG2/Charge & Release.unity
+    guid: f077aa6db68737b4098955ba1b7bc408
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/OneFinity/Swap.unity
+    guid: 2f3062726c363db4da5e5f5e38b44fff
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/5-SpicyWater/Roll them open.unity
+    guid: 7abdcfb3092655d45b45fcf3ea87058d
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/13 - Uhoh/Fish For Alien Fish.unity
+    guid: 0a142dc02d42c887291c363c3e57f7fb
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Grant Ross/Defend.unity
+    guid: 1dfd55b13a8d2154e89b46b0c44966b8
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/JakeGame/Eat the Planet!.unity
+    guid: 146a32f4bd1cc5c46906aae998b9974f
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/karina/Suit Up.unity
+    guid: 24d2a994a742fff458bb77ea636087b4
+  - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Team4Frogkid2/Choose Wisely.unity
+    guid: 7393c3f44303f7e4cb9db043040a5248
   m_configObjects: {}

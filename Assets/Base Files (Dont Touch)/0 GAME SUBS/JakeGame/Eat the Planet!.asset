@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: Eat the Planet!
+  m_EditorClassIdentifier: 
+  gameTime: 0
+  music: {fileID: 8300000, guid: c606b1b36fe6b6449b85fc5dd9224f35, type: 3}
+  volume: 1
+  sounds:
+  - soundName: tongueExtend
+    clip: {fileID: 8300000, guid: 96d5000d5cfedf247804c2dc325c6b19, type: 3}
+    volume: 0.2
+    minPitch: 0.972
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: planetMunch
+    clip: {fileID: 8300000, guid: 3dad1381effc3294e931f5bdf2a96320, type: 3}
+    volume: 1
+    minPitch: 0.513
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: explosion
+    clip: {fileID: 8300000, guid: ac24067977eb9f346ab61b977e4d798e, type: 3}
+    volume: 0.203
+    minPitch: 0.513
+    maxPitch: 1
+    source: {fileID: 0}
+  gameWin: 0

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6289b71b71e942a2499ed4eb71c02, type: 3}
+  m_Name: WordMinigame
+  m_EditorClassIdentifier: 
+  gameTime: 1
+  music: {fileID: 0}
+  volume: 1
+  sounds:
+  - soundName: Pad
+    clip: {fileID: 8300000, guid: b7e1c99040cf3b443b9dab43e6e14ae7, type: 3}
+    volume: 0.7
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Win
+    clip: {fileID: 8300000, guid: 42e42ca5899e451469bd494c23093797, type: 3}
+    volume: 0.7
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Select0
+    clip: {fileID: 8300000, guid: 858935bd860bfdf48bea347b4c28c360, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Select1
+    clip: {fileID: 8300000, guid: 745bb239cf5c3a84fa062993143bf825, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Select2
+    clip: {fileID: 8300000, guid: 9964731cb5ded80458706586475cef06, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Swap0
+    clip: {fileID: 8300000, guid: 43622782be15da349aa4b0f16cd4d5a3, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Swap1
+    clip: {fileID: 8300000, guid: 8199ff89746dafa428b18e4c3cb7ffc0, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Kick
+    clip: {fileID: 8300000, guid: 8453859107a96254e9932ddefe103ba1, type: 3}
+    volume: 1
+    minPitch: 0.8
+    maxPitch: 1.2
+    source: {fileID: 0}
+  gameWin: 0
