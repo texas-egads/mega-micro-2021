@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8c7539471eabd498d8a806c263dcff, type: 3}
+  m_Name: Boss Game
+  m_EditorClassIdentifier: 
+  gameWin: 1
+  gameOver: 1
+  sounds:
+  - soundName: EnemyHit
+    clip: {fileID: 8300000, guid: de46f17f7e53990458830205ff212289, type: 3}
+    volume: 0.636
+    minPitch: 0.928
+    maxPitch: 1.11
+    source: {fileID: 0}
+  - soundName: PlayerHit
+    clip: {fileID: 8300000, guid: 04be60414507a3a418775a173b7af9f2, type: 3}
+    volume: 0.636
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Jump
+    clip: {fileID: 8300000, guid: 9f98e983ef8f28a41a1685732fa33868, type: 3}
+    volume: 0.656
+    minPitch: 0.917
+    maxPitch: 1.15
+    source: {fileID: 0}
+  - soundName: Shoot
+    clip: {fileID: 8300000, guid: a89354337b2419240b776c6ec37d9386, type: 3}
+    volume: 0.43
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Grab
+    clip: {fileID: 8300000, guid: 1bb967c759848ba4985817f52bc03b4f, type: 3}
+    volume: 0.821
+    minPitch: 0.885
+    maxPitch: 1.15
+    source: {fileID: 0}
+  - soundName: Song_1
+    clip: {fileID: 8300000, guid: e0c62bf7eb7f934478757128258948e1, type: 3}
+    volume: 0.821
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Song_2
+    clip: {fileID: 8300000, guid: 66f25e3b55c032e41bc6c73fe7145f95, type: 3}
+    volume: 0.821
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Song_3
+    clip: {fileID: 8300000, guid: 4ae3b61886e89574faabd113998dd18d, type: 3}
+    volume: 0.828
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Song_4
+    clip: {fileID: 8300000, guid: c7bbc45293cceb649b1c533b149c22ad, type: 3}
+    volume: 0.821
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Song_Open
+    clip: {fileID: 8300000, guid: 340242b08afd12e45b3937af3fea20a8, type: 3}
+    volume: 0.513
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: Charge
+    clip: {fileID: 8300000, guid: fcace809a6d5cf141b08a4e02b85d4e7, type: 3}
+    volume: 0.821
+    minPitch: 0.885
+    maxPitch: 1.15
+    source: {fileID: 0}
+  - soundName: Rocket
+    clip: {fileID: 8300000, guid: 2e4666e8fc9a65c4795a265d50df7d78, type: 3}
+    volume: 0.821
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: fail
+    clip: {fileID: 8300000, guid: 61ab5b94b9a114f4dbc794e13f9701b9, type: 3}
+    volume: 0.491
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}
+  - soundName: success
+    clip: {fileID: 8300000, guid: 91fc83bf06259b643ba33013dc132ca6, type: 3}
+    volume: 0.549
+    minPitch: 1
+    maxPitch: 1
+    source: {fileID: 0}

@@ -18,26 +18,26 @@ EditorBuildSettings:
     path: Assets/Base Files (Dont Touch)/0 Scenes/Intro.unity
     guid: 82b82b45a6ccc9e47ac82c4c456b9e68
   - enabled: 1
-    path: Assets/Base Files (Dont Touch)/Boss Game Files (Dont Change)/Boss Game/Boss!!.unity
+    path: Assets/Base Files (Dont Touch)/Final Boss/Boss Game/Boss!!.unity
     guid: e8183a5cfe695594999097e9aa9bf923
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 Scenes/Credits.unity
     guid: 9847ffd9f95d2504c9ffca4319ac2544
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/10-Hivemind/Grab In Order.unity
-    guid: 3e9915266fc69bd45a229fedcfc52f90
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/2-ThePoggersGamers/Eat Honey.unity
-    guid: d86c606380d17ad4da3075c68c0b531f
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/15 - Sumo Sushi/Eat Three Plates.unity
-    guid: 8d43919e5d1a42e49b12471d39681982
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/6-BeekeeperKeepers/Stack it.unity
-    guid: ed4d2adbcd5c4e9479f3f7727edee5ed
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3-TBeeD/Spread The Jam.unity
-    guid: 54bb1707eebe0f449921127bfd29c1c8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3-LONEPINKREBEL/Get the banana.unity
     guid: edb5ef0529eeaee408562800c9fc6260
