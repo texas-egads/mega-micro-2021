@@ -181,9 +181,20 @@ public class MainGameManager : MonoBehaviour
         }
         else if (roundNumber <= roundsToWin)
         {
-            
             StartCoroutine(LoadNextGame());
         }
+        /* TODO uncomment and implement functionality
+        else if (roundNumber == (roundsToWin + 1) / 2)
+        {
+            //Load mini boss. Ideally handle it in the same way as the boss is handled 
+            //with a BossGameManager and variables that control the if the player won and 
+            //when the game is over. These variables are called gameWin and gameOver.
+            
+            //Potential solutions are to make miniboss counterparts to the LoadBossGame,
+            //OnBossGameStart, and WaitForBossGameEnd functions. This would be better than setting 
+            //a new minigame timer length since it would allow for premature minigame fail that ends the minigame.
+        }
+        */
         else
         {
             StartCoroutine(LoadBossGame());
