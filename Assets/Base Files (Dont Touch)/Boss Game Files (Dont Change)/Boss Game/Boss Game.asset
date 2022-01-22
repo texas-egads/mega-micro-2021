@@ -12,114 +12,90 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8c7539471eabd498d8a806c263dcff, type: 3}
   m_Name: Boss Game
   m_EditorClassIdentifier: 
-  gameWin: 0
-  gameOver: 0
+  gameWin: 1
+  gameOver: 1
   sounds:
-  - soundName: badfood
-    clip: {fileID: 8300000, guid: 4907d23cb219e4cdca048cf195dc25ce, type: 3}
-    volume: 0.7
+  - soundName: EnemyHit
+    clip: {fileID: 8300000, guid: de46f17f7e53990458830205ff212289, type: 3}
+    volume: 0.636
+    minPitch: 0.928
+    maxPitch: 1.11
+    source: {fileID: 0}
+  - soundName: PlayerHit
+    clip: {fileID: 8300000, guid: 04be60414507a3a418775a173b7af9f2, type: 3}
+    volume: 0.636
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: fall
-    clip: {fileID: 8300000, guid: f7c95d49417b64d77afc6c1f22fa340f, type: 3}
-    volume: 0.5
-    minPitch: 0.69
-    maxPitch: 1.57
+  - soundName: Jump
+    clip: {fileID: 8300000, guid: 9f98e983ef8f28a41a1685732fa33868, type: 3}
+    volume: 0.656
+    minPitch: 0.917
+    maxPitch: 1.15
     source: {fileID: 0}
-  - soundName: goodfood
-    clip: {fileID: 8300000, guid: 155177a1d445e4ebe8214be6466e8885, type: 3}
-    volume: 0.7
+  - soundName: Shoot
+    clip: {fileID: 8300000, guid: a89354337b2419240b776c6ec37d9386, type: 3}
+    volume: 0.43
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: mix1
-    clip: {fileID: 8300000, guid: 2ce3b1a78ff8249f38bea5fba5233ac7, type: 3}
-    volume: 0.7
+  - soundName: Grab
+    clip: {fileID: 8300000, guid: 1bb967c759848ba4985817f52bc03b4f, type: 3}
+    volume: 0.821
+    minPitch: 0.885
+    maxPitch: 1.15
+    source: {fileID: 0}
+  - soundName: Song_1
+    clip: {fileID: 8300000, guid: e0c62bf7eb7f934478757128258948e1, type: 3}
+    volume: 0.821
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: mix2
-    clip: {fileID: 8300000, guid: 371d243535e8d478fb788a4ac4a72a33, type: 3}
-    volume: 0.7
+  - soundName: Song_2
+    clip: {fileID: 8300000, guid: 66f25e3b55c032e41bc6c73fe7145f95, type: 3}
+    volume: 0.821
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: ready
-    clip: {fileID: 8300000, guid: d1374f7aaad6b462dad7a96e6b4a0e8a, type: 3}
-    volume: 0.7
+  - soundName: Song_3
+    clip: {fileID: 8300000, guid: 4ae3b61886e89574faabd113998dd18d, type: 3}
+    volume: 0.828
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: timer
-    clip: {fileID: 8300000, guid: 03c62158c9a8e44bc9b05b0ec9079f25, type: 3}
-    volume: 0.5
+  - soundName: Song_4
+    clip: {fileID: 8300000, guid: c7bbc45293cceb649b1c533b149c22ad, type: 3}
+    volume: 0.821
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: tier1
-    clip: {fileID: 8300000, guid: 5f181a535480d445aad151e60309bcd2, type: 3}
-    volume: 0.5
+  - soundName: Song_Open
+    clip: {fileID: 8300000, guid: 340242b08afd12e45b3937af3fea20a8, type: 3}
+    volume: 0.513
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
-  - soundName: tier2
-    clip: {fileID: 8300000, guid: 4f7f76f4db303414d89b83d87298a702, type: 3}
-    volume: 0.7
-    minPitch: 1
-    maxPitch: 1
+  - soundName: Charge
+    clip: {fileID: 8300000, guid: fcace809a6d5cf141b08a4e02b85d4e7, type: 3}
+    volume: 0.821
+    minPitch: 0.885
+    maxPitch: 1.15
     source: {fileID: 0}
-  - soundName: tier3
-    clip: {fileID: 8300000, guid: c754efa7b3a15478a818dea4ada0bece, type: 3}
-    volume: 0.7
-    minPitch: 1
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: tier4
-    clip: {fileID: 8300000, guid: babc98bf994814bdb9ae37d37d708cf4, type: 3}
-    volume: 0.5
-    minPitch: 1
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: missilelaunch
-    clip: {fileID: 8300000, guid: 132b7b268c78e431d83b943cd92924ba, type: 3}
-    volume: 0.517
-    minPitch: 0.76
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: rocketexplode
-    clip: {fileID: 8300000, guid: a1da33de22f51421b83c9d4418e2c6de, type: 3}
-    volume: 0.5
-    minPitch: 1
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: rocketlaunch
-    clip: {fileID: 8300000, guid: 0dc8db34f37004624842cefab5f9968a, type: 3}
-    volume: 0.5
-    minPitch: 1
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: rocketloop
-    clip: {fileID: 8300000, guid: 85ec850bd82ce4c6db62e1189889eb12, type: 3}
-    volume: 0.5
+  - soundName: Rocket
+    clip: {fileID: 8300000, guid: 2e4666e8fc9a65c4795a265d50df7d78, type: 3}
+    volume: 0.821
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
   - soundName: fail
-    clip: {fileID: 8300000, guid: ae94680f5e50c49fcb9faaae60716960, type: 3}
-    volume: 0.45
+    clip: {fileID: 8300000, guid: 61ab5b94b9a114f4dbc794e13f9701b9, type: 3}
+    volume: 0.491
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}
   - soundName: success
-    clip: {fileID: 8300000, guid: 69c849bfd03824876bdb21fc45ee5a16, type: 3}
-    volume: 0.6
-    minPitch: 1
-    maxPitch: 1
-    source: {fileID: 0}
-  - soundName: victory
-    clip: {fileID: 8300000, guid: ca0e13caeae55a146ba53dada47f7fc4, type: 3}
-    volume: 0.55
+    clip: {fileID: 8300000, guid: 91fc83bf06259b643ba33013dc132ca6, type: 3}
+    volume: 0.549
     minPitch: 1
     maxPitch: 1
     source: {fileID: 0}

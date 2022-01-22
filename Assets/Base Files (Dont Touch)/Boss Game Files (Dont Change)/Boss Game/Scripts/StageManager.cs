@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BeeNice
+namespace SecretPuddle
 {
     public class StageManager : MonoBehaviour
     {

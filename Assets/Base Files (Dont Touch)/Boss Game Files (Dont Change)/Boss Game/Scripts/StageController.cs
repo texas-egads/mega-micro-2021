@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace BeeNice
+namespace SecretPuddle
 {
     public class StageController : MonoBehaviour
     {
@@ -28,14 +28,15 @@ namespace BeeNice
 
         public virtual void LoseGame()
         {
-            StartCoroutine(LoseGameHelper());
+            StartCoroutine(PlayLoseSound());
         }
-        private IEnumerator LoseGameHelper()
+
+        private IEnumerator PlayLoseSound()
         {
-            BossGameManager.Instance.bossGame.gameWin = false;
-            yield return new WaitForSeconds(.01f);
-            BossGameManager.Instance.bossGame.gameOver = true;
             BossGameManager.Instance.PlaySound("fail");
+            yield return new WaitForSeconds(0.857f);
+            BossGameManager.Instance.bossGame.gameWin = false;
+            BossGameManager.Instance.bossGame.gameOver = true;
         }
     }
 }
