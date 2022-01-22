@@ -199,9 +199,8 @@ public class MainGameManager : MonoBehaviour
         yield return new WaitForSeconds(ShortTime/2 - .15f); //matching the same amount of wait as the block below
         yield return new WaitForSeconds(ShortTime/2 - halfBeat - .21f);
         yield return new WaitForSeconds(.21f);
-        SceneManager.LoadScene("End");  //TODO replace with block below to allow for proper boss battle
+        //SceneManager.LoadScene("End");  //TODO replace with block below to allow for proper boss battle
 
-        /* TODO comment this back in to allow for proper boss battle
         AsyncOperation scene = SceneManager.LoadSceneAsync(bossSceneIndex);
         scene.allowSceneActivation = false;
         yield return new WaitForSeconds(ShortTime/2 - .15f);
@@ -220,7 +219,6 @@ public class MainGameManager : MonoBehaviour
         scene.allowSceneActivation = true;
         GameStart();
         LevelPreview.instance.HandleLevelPreview(true);
-        */
     }
     public void OnBossGameStart(BossGame bossGame)
     {

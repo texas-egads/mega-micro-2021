@@ -1663,7 +1663,7 @@ PrefabInstance:
     - target: {fileID: 3011878717939191306, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: roundsToWin
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4637096852649538272, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
