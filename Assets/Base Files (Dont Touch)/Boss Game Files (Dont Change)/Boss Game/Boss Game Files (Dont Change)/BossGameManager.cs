@@ -213,6 +213,6 @@ public class BossGameManager : MonoBehaviour
     private IEnumerator GameDelayedStart()
     {
         yield return new WaitForSeconds(.2333f);
-        MainGameManager.instance.OnBossGameStart(bossGame);
+        MainGameManager.Instance.OnBossGameStart(bossGame);
     }
 }
