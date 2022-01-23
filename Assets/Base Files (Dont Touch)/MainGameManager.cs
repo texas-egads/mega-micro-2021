@@ -201,6 +201,7 @@ public class MainGameManager : MonoBehaviour
         }
     }
     public int bossSceneIndex;
+    public int miniBossSceneIndex;
     
     private IEnumerator LoadBossGame()
     {
