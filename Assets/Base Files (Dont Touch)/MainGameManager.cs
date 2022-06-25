@@ -52,6 +52,7 @@ public class MainGameManager : MonoBehaviour
     [SerializeField] private bool debugBossMode;
     [SerializeField] private bool testMode;
     public bool firstBossTry;
+    public bool firstMinibossTry;
     [HideInInspector] public bool gameOver;
 
     private void Awake()
@@ -67,6 +68,7 @@ public class MainGameManager : MonoBehaviour
         roundNumber = 1;
         _remainingGames = new List<int>();
         firstBossTry = true;
+        firstMinibossTry = true;
         gameOver = false;
         gameWin = false;
         if (debugBossMode) StartCoroutine(LoadBossGame());
@@ -179,22 +181,22 @@ public class MainGameManager : MonoBehaviour
             gameOver = true;
             Invoke(nameof(OnGameOver), 0 /*ShortTime/2*/);
         }
-        else if (roundNumber <= roundsToWin)
-        {
-            StartCoroutine(LoadNextGame());
-        }
-        /* TODO uncomment and implement functionality
         else if (roundNumber == (roundsToWin + 1) / 2)
         {
             //Load mini boss. Ideally handle it in the same way as the boss is handled 
             //with a BossGameManager and variables that control the if the player won and 
             //when the game is over. These variables are called gameWin and gameOver.
-            
+
             //Potential solutions are to make miniboss counterparts to the LoadBossGame,
             //OnBossGameStart, and WaitForBossGameEnd functions. This would be better than setting 
             //a new minigame timer length since it would allow for premature minigame fail that ends the minigame.
+
+            StartCoroutine(LoadMinigame());
         }
-        */
+        else if (roundNumber <= roundsToWin)
+        {
+            StartCoroutine(LoadNextGame());
+        }
         else
         {
             StartCoroutine(LoadBossGame());
@@ -203,6 +205,35 @@ public class MainGameManager : MonoBehaviour
     public int bossSceneIndex;
     public int miniBossSceneIndex;
     
+    private IEnumerator LoadMinigame()
+    {
+        AsyncOperation scene = SceneManager.LoadSceneAsync(miniBossSceneIndex);
+        scene.allowSceneActivation = false;
+        yield return new WaitForSeconds(ShortTime / 2 - .1f);
+
+        // miniboss alert
+        if (firstMinibossTry)
+        {
+            BossAlertHandler alertHandler = FindObjectOfType<BossAlertHandler>();
+            alertHandler.gameObject.GetComponent<Text>().text = "MINIBOSS TIME!";
+            alertHandler.BossAlert();
+            yield return new WaitForSeconds(ShortTime);
+            FindObjectOfType<AudioManager>().PlayReady();
+        }
+
+        OnNextGameWait();
+        yield return new WaitForSeconds(ShortTime / 2 - halfBeat - .21f);
+        OnGrowMainScene();
+        ImpactWord.instance.HandleImpactText(NameFromIndex(miniBossSceneIndex));
+        yield return new WaitForSeconds(.21f);
+        scene.allowSceneActivation = true;
+        GameStart();
+        LevelPreview.instance.HandleLevelPreview(true);
+
+        // TODO: see where the boss game listens for the game to end and where it waits for boss end
+    }
+
+
     private IEnumerator LoadBossGame()
     {
         yield return new WaitForSeconds(.1f);
@@ -218,7 +249,9 @@ public class MainGameManager : MonoBehaviour
         yield return new WaitForSeconds(ShortTime/2 - .15f);
         if (firstBossTry)
         {
-            FindObjectOfType<BossAlertHandler>().BossAlert();
+            BossAlertHandler alertHandler = FindObjectOfType<BossAlertHandler>();
+            alertHandler.gameObject.GetComponent<Text>().text = "BOSS TIME!";
+            alertHandler.BossAlert();
             yield return new WaitForSeconds(ShortTime);
             FindObjectOfType<AudioManager>().PlayReady();
         }
