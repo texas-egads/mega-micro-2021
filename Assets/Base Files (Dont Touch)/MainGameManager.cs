@@ -69,6 +69,7 @@ public class MainGameManager : MonoBehaviour
         _remainingGames = new List<int>();
         firstBossTry = true;
         firstMinibossTry = true;
+        isMiniBossOver = false;
         gameOver = false;
         gameWin = false;
         if (debugBossMode) StartCoroutine(LoadBossGame());
@@ -147,13 +148,58 @@ public class MainGameManager : MonoBehaviour
         if(!testMode)_remainingGames.RemoveAt(gameIndex);
         return game;
     }
-    
 
     public void OnMinigameStart(Minigame minigame)
     {
-        TimerManager.Instance.StartTimer(minigame.gameTime);
-        var waitTime = minigame.gameTime == Minigame.GameTime.Short ? ShortTime : LongTime;
-        StartCoroutine(WaitForMinigameEnd(minigame, waitTime));
+        // Hardcoded start to miniboss at midpoint of game
+        if (roundNumber == (roundsToWin + 1) / 2)
+        {
+            StartCoroutine(WaitForMiniBossEnd(minigame));
+        }
+        else
+        {
+            TimerManager.Instance.StartTimer(minigame.gameTime);
+            var waitTime = minigame.gameTime == Minigame.GameTime.Short ? ShortTime : LongTime;
+            StartCoroutine(WaitForMinigameEnd(minigame, waitTime));
+        }
+       
+    }
+
+    public bool isMiniBossOver = false;
+
+    private IEnumerator WaitForMiniBossEnd(Minigame miniBoss)
+    {
+        yield return new WaitForSeconds(.1f);
+        AsyncOperation scene = SceneManager.LoadSceneAsync("Main");
+        scene.allowSceneActivation = false;
+        while (!isMiniBossOver) yield return null;
+
+        LevelPreview.instance.HandleLevelPreview(false);
+        yield return new WaitForSeconds(halfBeat);
+
+        if (!miniBoss.gameWin) 
+            remainingLives -= 1;
+        else
+            roundNumber++;
+       
+        firstMinibossTry = false;
+        scene.allowSceneActivation = true;
+        yield return null;
+        gameWin = miniBoss.gameWin;
+        MainStart(miniBoss.gameWin);
+        if (remainingLives == 0)
+        {
+            gameOver = true;
+            Invoke(nameof(OnGameOver), 0 /*ShortTime/2*/);
+        }
+        else if (!miniBoss.gameWin)
+        {
+            StartCoroutine(LoadMiniBoss());
+        }
+        else
+        {
+            StartCoroutine(LoadNextGame());
+        }
     }
 
     private IEnumerator WaitForMinigameEnd(Minigame minigame, float time)
@@ -191,7 +237,7 @@ public class MainGameManager : MonoBehaviour
             //OnBossGameStart, and WaitForBossGameEnd functions. This would be better than setting 
             //a new minigame timer length since it would allow for premature minigame fail that ends the minigame.
 
-            StartCoroutine(LoadMinigame());
+            StartCoroutine(LoadMiniBoss());
         }
         else if (roundNumber <= roundsToWin)
         {
@@ -205,7 +251,7 @@ public class MainGameManager : MonoBehaviour
     public int bossSceneIndex;
     public int miniBossSceneIndex;
     
-    private IEnumerator LoadMinigame()
+    private IEnumerator LoadMiniBoss()
     {
         AsyncOperation scene = SceneManager.LoadSceneAsync(miniBossSceneIndex);
         scene.allowSceneActivation = false;

@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Base Files (Dont Touch)/0 Scenes/Credits.unity
     guid: 9847ffd9f95d2504c9ffca4319ac2544
   - enabled: 1
+    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Marmalads/MiniBoss!!.unity
+    guid: 67e058b43adc32347a89f34f3409370b
+  - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 GAME SUBS/3-LONEPINKREBEL/Get the banana.unity
     guid: edb5ef0529eeaee408562800c9fc6260
   - enabled: 1
@@ -72,7 +75,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Team4Frogkid2/Choose Wisely.unity
     guid: 7393c3f44303f7e4cb9db043040a5248
-  - enabled: 1
-    path: Assets/Base Files (Dont Touch)/0 GAME SUBS/Marmalads/Scene.unity
-    guid: 67e058b43adc32347a89f34f3409370b
   m_configObjects: {}

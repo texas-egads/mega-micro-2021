@@ -301,6 +301,7 @@ namespace Marmalads
             MinibossAudioManager.Instance.PlayLoseSFX();
             KillAllEnemies();
             StopAllCoroutines();
+            MainGameManager.Instance.isMiniBossOver = true;
         }
 
         public void Win()
@@ -310,6 +311,7 @@ namespace Marmalads
             KillAllEnemies();
             StopAllCoroutines();
             PlayerAttacks.Instance.Win();
+            MainGameManager.Instance.isMiniBossOver = true;
         }
     }
 }
