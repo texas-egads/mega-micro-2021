@@ -55,6 +55,8 @@ public class MainGameManager : MonoBehaviour
     public bool firstMinibossTry;
     [HideInInspector] public bool gameOver;
 
+    [SerializeField] private Canvas boarderCanvas;
+
     private void Awake()
     {
         if(_instance == null) _instance = this;
@@ -127,14 +129,18 @@ public class MainGameManager : MonoBehaviour
         scene.allowSceneActivation = false;
         yield return new WaitForSeconds(ShortTime/2 -.1f);
         OnNextGameWait();
+
+        if (!FindObjectOfType<AudioManager>()._source.isPlaying)
+            FindObjectOfType<AudioManager>()._source.Play();
+
         yield return new WaitForSeconds(ShortTime/2 - halfBeat - .21f);
         OnGrowMainScene();
         ImpactWord.instance.HandleImpactText(sceneName);
         yield return new WaitForSeconds(.21f);
         scene.allowSceneActivation = true;
         GameStart();
+        boarderCanvas.enabled = true;
         LevelPreview.instance.HandleLevelPreview(true);
-        
     }
 
 
@@ -185,7 +191,6 @@ public class MainGameManager : MonoBehaviour
         firstMinibossTry = false;
         scene.allowSceneActivation = true;
         yield return null;
-        gameWin = miniBoss.gameWin;
         MainStart(miniBoss.gameWin);
         if (remainingLives == 0)
         {
@@ -274,6 +279,10 @@ public class MainGameManager : MonoBehaviour
         yield return new WaitForSeconds(.21f);
         scene.allowSceneActivation = true;
         GameStart();
+
+        // disable boarder for miniboss 
+        boarderCanvas.enabled = false;
+
         LevelPreview.instance.HandleLevelPreview(true);
 
         // TODO: see where the boss game listens for the game to end and where it waits for boss end
@@ -309,6 +318,10 @@ public class MainGameManager : MonoBehaviour
         yield return new WaitForSeconds(.21f);
         scene.allowSceneActivation = true;
         GameStart();
+
+        // disable boarder for miniboss 
+        boarderCanvas.enabled = false;
+
         LevelPreview.instance.HandleLevelPreview(true);
     }
     public void OnBossGameStart(BossGame bossGame)
