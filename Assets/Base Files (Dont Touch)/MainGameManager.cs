@@ -180,13 +180,21 @@ public class MainGameManager : MonoBehaviour
         scene.allowSceneActivation = false;
         while (!isMiniBossOver) yield return null;
 
+        isMiniBossOver = false;
+
         LevelPreview.instance.HandleLevelPreview(false);
         yield return new WaitForSeconds(halfBeat);
 
-        if (!miniBoss.gameWin) 
+        if (!miniBoss.gameWin)
+        {
             remainingLives -= 1;
+        }
         else
+        {
             roundNumber++;
+            remainingLives = Mathf.Clamp(remainingLives + 1, 0, StartingLives);
+        }
+           
        
         firstMinibossTry = false;
         scene.allowSceneActivation = true;

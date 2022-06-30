@@ -61,6 +61,7 @@ public class CreditsController : MonoBehaviour
                     panelInst = Instantiate(creditPanelTemplates[1], panelToParent).GetComponent<PanelController>();
                 }
                 var splitText = creditPanels[i].text.Split(new char[] { '\n' }, 2);
+
                 panelInst.UpdateFields(creditPanels[i].screenshot[0], splitText[0], splitText[1]);
                 panelToParent = (RectTransform)panelInst.transform;
 
