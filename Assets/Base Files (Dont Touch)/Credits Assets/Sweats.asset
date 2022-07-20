@@ -17,4 +17,5 @@ MonoBehaviour:
     by dland from freesound.org\r\n\u201Cexplosion_big_02\u201D explosion sound effect
     by derplayer from freesound.org\r\n\u201CSciFi TV theme I\u201D music by Matt
     Oakley from freemusicarchive.org"
-  screenshot: []
+  screenshot:
+  - {fileID: 21300000, guid: bdfb758219b458e48bbdbd724b2f9bae, type: 3}

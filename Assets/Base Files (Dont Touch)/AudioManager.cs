@@ -18,6 +18,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private Music startMusic;
     [SerializeField] private Music cutsceneMusic;
     [SerializeField] private Music title;
+    [SerializeField] private Music victoryScreenMusic;
+    [SerializeField] private Music incomingBossMusic;
     
     public AudioSource _source;
 
@@ -30,6 +32,18 @@ public class AudioManager : MonoBehaviour
         MainGameManager.OnMainStart += StartMusic;
         MainGameManager.Instance.GameOver += LoseMusic;
         _source.Play();
+    }
+
+    public void VictoryScreenMusic()
+    {
+        _source.loop = true;
+        PlayMusic(victoryScreenMusic);
+    }
+
+    private void IncomingBossMusic()
+    {
+        _source.loop = false;
+        PlayMusic(incomingBossMusic);
     }
 
     private void TitleMusic()

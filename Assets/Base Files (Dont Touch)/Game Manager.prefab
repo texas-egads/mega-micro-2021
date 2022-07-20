@@ -602,6 +602,7 @@ MonoBehaviour:
   firstBossTry: 0
   firstMinibossTry: 0
   gameOver: 0
+  boarderCanvas: {fileID: 0}
   isMiniBossOver: 0
   bossSceneIndex: 4
   miniBossSceneIndex: 6
@@ -653,22 +654,28 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 334d9c6177ac6a842ba8c2cb56a2a8dd, type: 3}
     volume: 0.7
   successMusic:
-    clip: {fileID: 8300000, guid: 6d074fb07331df647bda47b66ae49d66, type: 3}
+    clip: {fileID: 8300000, guid: 63148f6c8de1e2542b81d51753ca7d55, type: 3}
     volume: 0.7
   failureMusic:
-    clip: {fileID: 8300000, guid: 32784beb12745af47b363c5ffb8d8b41, type: 3}
+    clip: {fileID: 8300000, guid: a1e81e099d90f7d4f9e623083c293c6c, type: 3}
     volume: 0.7
   gameOverMusic:
-    clip: {fileID: 8300000, guid: 601c613d30cec8a42a3b38d45f61f258, type: 3}
+    clip: {fileID: 8300000, guid: 94e517898aa084b488926f544825c120, type: 3}
     volume: 0.7
   startMusic:
-    clip: {fileID: 8300000, guid: d135922c3fcbbf842890909f0830b278, type: 3}
+    clip: {fileID: 8300000, guid: 6a20659e23a2f074986acbd78aa2ce21, type: 3}
     volume: 0.7
   cutsceneMusic:
     clip: {fileID: 8300000, guid: 3ff37ad6e453e89498da22f1cbfe275d, type: 3}
     volume: 0.707
   title:
-    clip: {fileID: 8300000, guid: 67d6e241e969d594bae0797381aa8134, type: 3}
+    clip: {fileID: 8300000, guid: 8825cd715144d2440bc3047d27e01d90, type: 3}
+    volume: 0.7
+  victoryScreenMusic:
+    clip: {fileID: 8300000, guid: 3ec047057728f1e48bb27dba7380a69e, type: 3}
+    volume: 0.7
+  incomingBossMusic:
+    clip: {fileID: 8300000, guid: 20d2cf2fc2f1552449de08ae50e99b17, type: 3}
     volume: 0.7
   _source: {fileID: 0}
 --- !u!1 &3709636028936260919

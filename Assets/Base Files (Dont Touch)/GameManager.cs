@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
-    public static GameManager Instance => _instance ? _instance : FindObjectOfType<GameManager>();
+    public static GameManager Instance => _instance;
     public enum GameState
     {
         TitleScreen, MainGame, EndScreen, Intro
@@ -45,10 +45,15 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (_instance == null) _instance = this;
-        else Destroy(gameObject);
-        DontDestroyOnLoad(gameObject);
-        
+        if (_instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            _instance = this;
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
+        }
         //SceneManager.sceneUnloaded += StartGame<SceneManager.GetSceneByName("Title Screen")>;
         //if(SceneManager.GetActiveScene().name == "Main") StartGame();
         //TitleScreenListener.AddListener(StartGame);
