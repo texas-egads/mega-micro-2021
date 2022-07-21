@@ -49,9 +49,10 @@ namespace SecretPuddle
         private IEnumerator EndStage(float delay)
         {
             Camera.main.GetComponent<CameraShake>().continousShake(delay, screenShakeIntensity);
-            yield return new WaitForSeconds(1.5f);
-            BossGameManager.Instance.PlaySong("Song_4", 88, true, delay - 1.5f, true);
-            yield return new WaitForSeconds(delay - 1.5f);
+            //yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(delay - 5f);
+            BossGameManager.Instance.PlaySong("Song_4", 88, true, 5f, true);
+            yield return new WaitForSeconds(5f);
             stageOver.Invoke();
         }
         

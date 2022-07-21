@@ -674,8 +674,11 @@ MonoBehaviour:
   victoryScreenMusic:
     clip: {fileID: 8300000, guid: 3ec047057728f1e48bb27dba7380a69e, type: 3}
     volume: 0.7
-  incomingBossMusic:
+  incomingBossMusicWin:
     clip: {fileID: 8300000, guid: 20d2cf2fc2f1552449de08ae50e99b17, type: 3}
+    volume: 0.7
+  incomingBossMusicLose:
+    clip: {fileID: 8300000, guid: 6f8a98ca1cce4284b8f1e2c16566414f, type: 3}
     volume: 0.7
   _source: {fileID: 0}
 --- !u!1 &3709636028936260919

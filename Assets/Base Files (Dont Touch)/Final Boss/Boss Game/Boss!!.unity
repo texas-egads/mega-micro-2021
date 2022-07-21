@@ -179,6 +179,80 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &278572700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642313967967221122, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352152500448426745, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_Name
+      value: Stage 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352152500448426745, guid: 0163f3b11d7d7ce4f9befc2b18c16c11,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0163f3b11d7d7ce4f9befc2b18c16c11, type: 3}
 --- !u!850595691 &392271620
 LightingSettings:
   m_ObjectHideFlags: 0

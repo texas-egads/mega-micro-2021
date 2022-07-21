@@ -45,6 +45,8 @@ namespace Marmalads
         [Header("Hover Indicators")]
         //Indicies: 0 = Left, 1 = Middle, 2 = Right
         [SerializeField] private List<GameObject> _hoverIndicators;
+
+        private bool willWin;
         protected override void Awake()
         {
             base.Awake();
@@ -297,6 +299,9 @@ namespace Marmalads
         
         public void Lose()
         {
+            if (willWin)
+                return;
+
             MinigameManager.Instance.minigame.gameWin = false;
             MinibossAudioManager.Instance.PlayLoseSFX();
             KillAllEnemies();
@@ -310,6 +315,13 @@ namespace Marmalads
             MinibossAudioManager.Instance.PlayWinSFX();
             KillAllEnemies();
             StopAllCoroutines();
+            willWin = true;
+            StartCoroutine(waitWin());
+        }
+
+        private IEnumerator waitWin()
+        {
+            yield return new WaitForSeconds(2);
             PlayerAttacks.Instance.Win();
             MainGameManager.Instance.isMiniBossOver = true;
         }

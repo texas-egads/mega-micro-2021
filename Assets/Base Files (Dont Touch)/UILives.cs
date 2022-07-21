@@ -11,6 +11,7 @@ public class UILives : MonoBehaviour
     private void Awake()
     {
         MainGameManager.OnMainStart += CheckLives;
+        MainGameManager.OnUpdateUI += CheckLives;
     }
 
     private void CheckLives(bool win)
@@ -37,5 +38,6 @@ public class UILives : MonoBehaviour
     private void OnDestroy()
     {
         MainGameManager.OnMainStart -= CheckLives;
+        MainGameManager.OnUpdateUI -= CheckLives;
     }
 }

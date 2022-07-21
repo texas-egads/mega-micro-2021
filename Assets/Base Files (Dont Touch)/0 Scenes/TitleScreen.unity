@@ -1528,24 +1528,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3011878717939191306, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
-      propertyPath: firstBossTry
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3011878717939191306, guid: 299268e851095ea429ce927bf2bef866,
-        type: 3}
       propertyPath: boarderCanvas
       value: 
       objectReference: {fileID: 1648106109}
-    - target: {fileID: 3011878717939191306, guid: 299268e851095ea429ce927bf2bef866,
-        type: 3}
-      propertyPath: debugBossMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3011878717939191306, guid: 299268e851095ea429ce927bf2bef866,
-        type: 3}
-      propertyPath: firstMinibossTry
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3709636028936260919, guid: 299268e851095ea429ce927bf2bef866,
         type: 3}
       propertyPath: m_IsActive

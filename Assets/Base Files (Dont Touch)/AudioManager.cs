@@ -19,14 +19,20 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private Music cutsceneMusic;
     [SerializeField] private Music title;
     [SerializeField] private Music victoryScreenMusic;
-    [SerializeField] private Music incomingBossMusic;
-    
+    [SerializeField] private Music incomingBossMusicWin;
+    [SerializeField] private Music incomingBossMusicLose;
+
     public AudioSource _source;
 
     private void Awake()
     {
         _source = gameObject.AddComponent<AudioSource>();
         //_source.clip = music[Random.Range(0, music.Length-1)];
+       
+    }
+
+    private void Start()
+    {
         GameManager.Instance.titleScreenListener.AddListener(TitleMusic);
         MainGameManager.Instance.FirstMainStart += IntroMusic;
         MainGameManager.OnMainStart += StartMusic;
@@ -40,10 +46,13 @@ public class AudioManager : MonoBehaviour
         PlayMusic(victoryScreenMusic);
     }
 
-    private void IncomingBossMusic()
+    public void IncomingBossMusic(bool gameWin)
     {
         _source.loop = false;
-        PlayMusic(incomingBossMusic);
+        if (gameWin)
+            PlayMusic(incomingBossMusicWin);
+        else
+            PlayMusic(incomingBossMusicLose);
     }
 
     private void TitleMusic()

@@ -21,6 +21,9 @@ public class MainGameManager : MonoBehaviour
     public static event Action<bool> OnMainStart;
     private static void MainStart(bool win) { OnMainStart?.Invoke(win); }
     public static event Action OnGameStart;
+
+    public static event Action<bool> OnUpdateUI;
+
     private static void GameStart() { OnGameStart?.Invoke(); }
 
     public event Action NextGameWait;
@@ -35,7 +38,7 @@ public class MainGameManager : MonoBehaviour
 
 
     private const int StartingLives = 3;
-    [HideInInspector] public int remainingLives;
+    public int remainingLives;
     private int numberOfGames;
     private List<int> _remainingGames;
 
@@ -62,8 +65,13 @@ public class MainGameManager : MonoBehaviour
         if(_instance == null) _instance = this;
         else Destroy(gameObject);
         numberOfGames = SceneManager.sceneCountInBuildSettings - indexOffset;
+    }
+
+    private void Start()
+    {
         GameManager.Instance.mainGameListener.AddListener(StartGame);
     }
+
     private void StartGame()
     {
         remainingLives = StartingLives;
@@ -233,7 +241,6 @@ public class MainGameManager : MonoBehaviour
         roundNumber++;
         scene.allowSceneActivation = true;
         yield return null;
-        MainStart(minigame.gameWin);
         if (remainingLives == 0)
         {
             //yield return null;
@@ -250,14 +257,25 @@ public class MainGameManager : MonoBehaviour
             //OnBossGameStart, and WaitForBossGameEnd functions. This would be better than setting 
             //a new minigame timer length since it would allow for premature minigame fail that ends the minigame.
 
+            OnUpdateUI.Invoke(minigame.gameWin);
+
+            if (firstMinibossTry)
+                FindObjectOfType<AudioManager>().IncomingBossMusic(minigame.gameWin);
+
             StartCoroutine(LoadMiniBoss());
         }
         else if (roundNumber <= roundsToWin)
         {
+            MainStart(minigame.gameWin);
             StartCoroutine(LoadNextGame());
         }
         else
         {
+            OnUpdateUI.Invoke(minigame.gameWin);
+
+            if (firstBossTry)
+                FindObjectOfType<AudioManager>().IncomingBossMusic(minigame.gameWin);
+
             StartCoroutine(LoadBossGame());
         }
     }
@@ -268,6 +286,7 @@ public class MainGameManager : MonoBehaviour
     {
         AsyncOperation scene = SceneManager.LoadSceneAsync(miniBossSceneIndex);
         scene.allowSceneActivation = false;
+
         yield return new WaitForSeconds(ShortTime / 2 - .1f);
 
         // miniboss alert
@@ -277,7 +296,7 @@ public class MainGameManager : MonoBehaviour
             alertHandler.gameObject.GetComponent<Text>().text = "MINIBOSS TIME!";
             alertHandler.BossAlert();
             yield return new WaitForSeconds(ShortTime);
-            FindObjectOfType<AudioManager>().PlayReady();
+            //FindObjectOfType<AudioManager>().PlayReady();
         }
 
         OnNextGameWait();
@@ -299,24 +318,26 @@ public class MainGameManager : MonoBehaviour
 
     private IEnumerator LoadBossGame()
     {
-        yield return new WaitForSeconds(.1f);
+        //yield return new WaitForSeconds(.1f);
 
 
-        yield return new WaitForSeconds(ShortTime/2 - .15f); //matching the same amount of wait as the block below
-        yield return new WaitForSeconds(ShortTime/2 - halfBeat - .21f);
-        yield return new WaitForSeconds(.21f);
+        //yield return new WaitForSeconds(ShortTime/2 - .15f); //matching the same amount of wait as the block below
+        //yield return new WaitForSeconds(ShortTime/2 - halfBeat - .21f);
+        //yield return new WaitForSeconds(.21f);
         //SceneManager.LoadScene("End");  //TODO replace with block below to allow for proper boss battle
 
         AsyncOperation scene = SceneManager.LoadSceneAsync(bossSceneIndex);
         scene.allowSceneActivation = false;
+
         yield return new WaitForSeconds(ShortTime/2 - .15f);
+
         if (firstBossTry)
         {
             BossAlertHandler alertHandler = FindObjectOfType<BossAlertHandler>();
             alertHandler.gameObject.GetComponent<Text>().text = "BOSS TIME!";
             alertHandler.BossAlert();
             yield return new WaitForSeconds(ShortTime);
-            FindObjectOfType<AudioManager>().PlayReady();
+            //FindObjectOfType<AudioManager>().PlayReady();
         }
         OnNextGameWait();
 

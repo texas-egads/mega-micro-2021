@@ -10,8 +10,8 @@ public class BossAlertHandler : MonoBehaviour
     
     public void BossAlert()
     {
-        FindObjectOfType<AudioManager>()._source.Stop();
-        source.Play();
+        //FindObjectOfType<AudioManager>()._source.Stop();
+        //source.Play();
         boss.Play("boss-alert-scroll");
     }
 }
