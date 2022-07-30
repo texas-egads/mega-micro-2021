@@ -54,6 +54,13 @@ namespace Marmalads
         private void Start()
         {
             // UIText.text = startText;
+            StartCoroutine(LateStart());
+        }
+
+        IEnumerator LateStart()
+        {
+            yield return new WaitForEndOfFrame();
+            //Your Function You Want to Call
             MinigameManager.Instance.minigame.gameWin = true;
             _spawnedGroundEnemies = new HashSet<GroundEnemy>();
             SetupTargets();
@@ -62,6 +69,7 @@ namespace Marmalads
 
             StartCoroutine(Tutorial());
         }
+
         private void SetBossClawStates(bool active)
         {
             foreach(BossClaw claw in _bossClaws)
