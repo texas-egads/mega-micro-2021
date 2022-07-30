@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
     {
         _source = gameObject.AddComponent<AudioSource>();
         //_source.clip = music[Random.Range(0, music.Length-1)];
-       
+       TitleMusic();
     }
 
     private void Start()
